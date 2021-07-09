@@ -14,7 +14,7 @@ Body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-self: center;
+    justify-content: center;
 
 }
 
@@ -46,7 +46,6 @@ Body {
     width: 50%;
     min-height: 34rem;
 
-
 }
 
 .group {
@@ -54,10 +53,10 @@ Body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: white;
+    background-color: #ffffff;
     width: 100%;
     padding: 1.3rem 0;
-    border: 1px,solid,white;
+    border: 1px,solid lightgray;
 
 }
 
@@ -65,7 +64,7 @@ Body {
     min-height: 19rem;
 }
 
-.instagram-logo {
+.logo-instagram {
     height: 3rem;
 }
 
@@ -83,7 +82,7 @@ Body {
 
 .instagram-login {
     background-color: #0095F6;
-    color: white;
+    color: #ffffff;
     padding: 8px;
     border-radius: 4px;
 
@@ -110,7 +109,6 @@ Body {
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0;
-
 }
 
 .donwload {
@@ -133,7 +131,7 @@ Body {
 
 }
 .app-donwload:nth-child(2){
-    background-image: url('google-bottom.png');
+    background-image: url('./google-bottom.png');
 
 }
 
@@ -147,7 +145,7 @@ Body {
 
 }
 
-@media (max-width: 658px) {
+@media (max-width: 650px) {
 
     body {
         background-color: #ffffff;
